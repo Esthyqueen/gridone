@@ -1,0 +1,44 @@
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0 auto;
+  max-width: 10vp;
+  row-gap: 10px;
+  border: 5px solid gray;
+
+}
+
+.card {
+  margin: 0 10px;
+  border: 1px solid black;
+  box-shadow: 0 0 5px 0px #ccc;
+  padding: 10px;
+  text-align: justify;
+}
+
+.card img {
+  width: 90%;
+}
+
+.card h4 {
+  margin-top: 0;
+  
+}
+
+.card p {
+  margin-top: 5px;
+}
+a{
+  background-color: gray;
+  color: white;
+  padding: 10px 150px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  align-items: center;
+}
+.cardone{
+  grid-row: 1 / span 2;
+  margin-top: 200px;
+
+}
